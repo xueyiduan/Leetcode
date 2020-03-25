@@ -1,8 +1,8 @@
 # Leetcode
 
-**Author**: Tscharrl
+**Author:** Tscharrl
 
-**Language**: C++
+**Language:** C++
 
 
 
