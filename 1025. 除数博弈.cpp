@@ -1,7 +1,9 @@
 /*
 Leetcode1025 除数博弈
 
-Tag: 动态规划
+Author:     Tscharrl
+Language:   C++
+Tag:        DP
 
 Description: 
 爱丽丝和鲍勃一起玩游戏，他们轮流行动。爱丽丝先手开局。
