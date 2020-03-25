@@ -1,7 +1,9 @@
 /*
 Leetcode面试题47 礼物的最大价值
 
-Tag: 动态规划
+Author:     Tscharrl
+Language:   C++
+Tag:        DP
 
 Description: 
 在一个 m*n 的棋盘的每一格都放有一个礼物，每个礼物都有一定的价值（价值大于 0）。
@@ -20,7 +22,8 @@ class Solution {
 public:
     int maxValue(vector<vector<int> >& grid) {
         int row = grid.size(), col = grid[0].size();
-        // 方法一：二维动态规划
+        
+        // 二维动态规划
         vector<vector<int> > value(row, vector<int>(col));
         value[0][0] = grid[0][0];
         for (int i = 0; i < row; i++) {
@@ -37,11 +40,11 @@ public:
         }
         return value[row-1][col-1];
 
-        // 方法二：一维动态规划
+        // 一维动态规划
         vector<int> value(col);
         for (int i = 0; i < row; i++) {
             value[0] = value[0] + grid[i][0];
-            for (int j = 0; j < col; j++) {
+            for (int j = 1; j < col; j++) {
                 value[j] = max(value[j], value[j-1]) + grid[i][j];
             }
         }
