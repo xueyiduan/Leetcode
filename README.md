@@ -10,7 +10,7 @@
 
 [64. 最小路径和](https://github.com/Tscharrl/Leetcode/blob/master/64.%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C.cpp)
 
-[96. 不同的二叉搜索树](https://github.com/Tscharrl/Leetcode/blob/master/96.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.cpp)
+[96. 不同的二叉搜索树](https://github.com/Tscharrl/Leetcode/blob/master/96.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.cpp) (Catalan Number)
 
 [338. 比特位计数](https://github.com/Tscharrl/Leetcode/blob/master/338.%20%E6%AF%94%E7%89%B9%E4%BD%8D%E8%AE%A1%E6%95%B0.cpp)
 
