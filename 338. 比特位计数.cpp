@@ -1,7 +1,9 @@
 /*
 Leetcode338 比特位计数
 
-Tag: 动态规划
+Author:     Tscharrl
+Language:   C++
+Tag:        DP
 
 Description: 
 给定一个非负整数 num。对于 0 ≤ i ≤ num 范围中的每个数字 i ，
